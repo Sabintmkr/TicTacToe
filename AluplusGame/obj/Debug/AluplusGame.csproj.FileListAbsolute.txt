@@ -1,0 +1,14 @@
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\bin\Debug\AluplusGame.exe.config
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\bin\Debug\AluplusGame.exe
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\bin\Debug\AluplusGame.pdb
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.csprojResolveAssemblyReference.cache
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.Form1.resources
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.Properties.Resources.resources
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.csproj.GenerateResource.Cache
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.exe
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.pdb
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.Form2.resources
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\bin\Debug\AluplusGame.exe.manifest
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\bin\Debug\AluplusGame.application
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.exe.manifest
+D:\Office Works\Portfolio\AluplusGame\AluplusGame\obj\Debug\AluplusGame.application

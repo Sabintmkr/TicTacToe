@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AluplusGame.exe" version="1.0.0.0" publicKeyToken="843b365b7fa33d7b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AluplusGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AluplusGame.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AluplusGame.exe" size="18944">
+      <assemblyIdentity name="AluplusGame" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iZOD43Bjp4iJuPHyaIYw35ub4qmhRhP8hEFK0zJ8+ss=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AluplusGame.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SABIN-PC\Sabin" issuerKeyHash="4f74ec32aa50b2f16443bc6db5967116dd83fc2c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2mPflXe3w92vbmYrVk5b4n3uWtFMIb3mz6nxY+RcVsE=</DigestValue></Reference></SignedInfo><SignatureValue>NmJansPI1WwRlJGgV1kevOTQ/tpAsvfr3SWZWhxXyfoglcaTHl6D0woD+EJ2GB6s8mDPEXFGWqUaDbTPgEGWzI6HWIq227+G58mJFITOVtYUJyyyUq+q46cjcGuD+wxKx902/aFZj5d1snfGzB91Pjn65pwuU8VEcVKUVmLDSfQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>osuiIJCTCUeo4V0TMxnlOdBRuBta52KrDizoq0ipDFqcXhRJUbO+C4y+kHqrE/1AgLTzKdHw1GXrEFgOju4nPYj07R53AKnIx6qMU8y3U0yPXt5KTJmyyo5Z9CJEn1B8UouowQjTPJ5DkX+r8GpO6ngztUGMyskoKsQPzHTL4LU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c1565ce463f1a9cfe6bd214cd15aee7de25b4e562b666eafddc3b77795df63da" Description="" Url=""><as:assemblyIdentity name="AluplusGame.exe" version="1.0.0.0" publicKeyToken="843b365b7fa33d7b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SABIN-PC\Sabin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yvMCmpvtxyaidfZv2q5Nhb9iV1yH6vEIbZVoL+vdef0=</DigestValue></Reference></SignedInfo><SignatureValue>jLB6+rvg1lX9AmVsfMxF5ut1S6Oi6XeS2BKFoBz8dGBOazsyqRpbGIcW+48S+ZB2WSXRyC9jU/MECwYb4UF6YjxqHib5QY2S/qcu0zs6zk0GLUj6g+z2gnYqJlwskOkEBuDWpEmr/mjEHbcsHgN1ouvd28jTXfgYa/vRro8J65c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>osuiIJCTCUeo4V0TMxnlOdBRuBta52KrDizoq0ipDFqcXhRJUbO+C4y+kHqrE/1AgLTzKdHw1GXrEFgOju4nPYj07R53AKnIx6qMU8y3U0yPXt5KTJmyyo5Z9CJEn1B8UouowQjTPJ5DkX+r8GpO6ngztUGMyskoKsQPzHTL4LU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQGKxnRTBRI5tGGT4eCOAgbDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAUwBBAEIASQBOAC0AUABDAFwAUwBhAGIAaQBuMB4XDTE4MDIwMzIyMDE0OVoXDTE5MDIwNDA0MDE0OVowJzElMCMGA1UEAx4cAFMAQQBCAEkATgAtAFAAQwBcAFMAYQBiAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAosuiIJCTCUeo4V0TMxnlOdBRuBta52KrDizoq0ipDFqcXhRJUbO+C4y+kHqrE/1AgLTzKdHw1GXrEFgOju4nPYj07R53AKnIx6qMU8y3U0yPXt5KTJmyyo5Z9CJEn1B8UouowQjTPJ5DkX+r8GpO6ngztUGMyskoKsQPzHTL4LUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA2H0M+Dmn5PFYoHawNbHCbH3na50PclVZRHZW43MYtH1wFrczT9bRu5sYzRSJ1cythpuW3gDWpck1AudUMM5Xa2+cF+ioam+Lcefs/eMIH1S/6ilFgUe2kO5AiWmXV6tO9mJRpyT9aX53sglC1qnvjR4CRRe8lcCkXZiCLOwCjIQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
